@@ -1,0 +1,17 @@
+var ndarray = require('ndarray');
+var show = require('ndarray-show');
+var zeros = require('zeros');
+var decom = require('../');
+
+var A = ndarray([
+    2, 1, 1, 
+    1, 2, 2, 
+    1, 2, 9, 
+   
+], [ 3, 3 ]);
+var L = zeros([ 3, 3 ]);
+var U = zeros([ 3, 3 ]);
+
+decom(A, E, R);
+console.log('L=\n' + show(E));
+console.log('U=\n' + show(R));
