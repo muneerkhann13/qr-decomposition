@@ -25,7 +25,7 @@ If `A` was non-square or the algorithm could not find a solution, `ok` is
 var ndarray = require('ndarray');
 var zeros = require('zeros');
 var show = require('ndarray-show');
-var decom = require('ndarray-crout-decomposition');
+var decom = require('qr-decomposition');
 
 var A = ndarray([ 1,1,0,1,0,1,0,1,1 ], [ 3, 3 ]);
 var E = zeros([ 3, 3 ]);
