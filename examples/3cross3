@@ -4,9 +4,9 @@ var zeros = require('zeros');
 var decom = require('../');
 
 var A = ndarray([
-    2, 1, 1, 
-    1, 2, 2, 
-    1, 2, 9, 
+    1, 1, 0, 
+    1, 0, 1, 
+    0, 1, 1, 
    
 ], [ 3, 3 ]);
 var L = zeros([ 3, 3 ]);
