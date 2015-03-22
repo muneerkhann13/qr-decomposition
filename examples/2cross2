@@ -8,5 +8,5 @@ var E = zeros([ 2, 2 ]);
 var R = zeros([ 2, 2 ]);
 
 decom(A, E, R);
-console.log('L=\n' + show(L));
-console.log('U=\n' + show(U));
+console.log('L=\n' + show(E));
+console.log('U=\n' + show(R));
