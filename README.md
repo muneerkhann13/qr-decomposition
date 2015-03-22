@@ -9,7 +9,7 @@ var decom = require('qr-decomposition')
 ```
 var ok = decom(A, E, R)
 ```
-Decompose the matrix `A` into `E` and `R`, mutating `L` and `U` in-place.
+Decompose the matrix `A` into `E` and `R`
 
 `A` is not modified.
 
